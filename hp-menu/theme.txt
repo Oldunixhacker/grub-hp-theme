@@ -6,8 +6,8 @@ desktop-image: "background.jpg"
 
 # Show the boot menu (from https://github.com/vinceliuice/grub2-themes/blob/master/config/theme-1080p.txt)
 + boot_menu {
-  left = 20%
-  top = 40%
+  left = 10%
+  top = 10%
   width = 95%
   height = 80%
   item_color = "black"
