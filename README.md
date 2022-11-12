@@ -43,3 +43,8 @@ Run the installer:
 ```
 apt install -y curl
 bash -c "$(curl https://raw.githubusercontent.com/TylerMS887/grub-hp-theme/main/install.sh
+```
+
+## Docs
+
+[GRUB2 theme specification](https://www.gnu.org/software/grub/manual/grub/html_node/Theme-file-format.html)
