@@ -16,8 +16,7 @@ desktop-image: "background.jpg"
   item_font = "Padauk Regular 12"
   item_color = "black"
   selected_item_color = "gray"
-  item_icon_space = 20
-  item_height = 36
+  item_height = 5
   item_padding = 1
   item_spacing = 1
 }
