@@ -31,6 +31,8 @@ to:
 GRUB_GFXMODE=1024x768
 ```
 
+Disable the timeout by changing `GRUB_TIMEOUT=10` to `GRUB_TIMEOUT=-1`.
+
 **GRUB 2.06+:** If you haven't already, enable `os-prober` to look for other operating
 systems, by adding this line:
 
@@ -38,12 +40,22 @@ systems, by adding this line:
 GRUB_DISABLE_OS_PROBER="false"
 ```
 
-Run the installer:
+Press `ctrl+x`, `y`, then Enter to apply configuration. Run the installer:
 
 ```
 apt install -y curl
 bash -c "$(curl https://raw.githubusercontent.com/TylerMS887/grub-hp-theme/main/install.sh
 ```
+
+Install and run `grub-customizer`:
+
+```
+add-apt-repository universe
+apt install grub-customizer
+grub-customizer
+```
+
+Go to the "Appearance" tab and change "Theme" to "hp-theme".
 
 ## Docs
 
