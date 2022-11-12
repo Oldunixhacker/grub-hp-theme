@@ -16,7 +16,13 @@ then
    echo "Creating themes folder..."
    mkdir /boot/grub/themes
 fi
-cp -r hp-menu /boot/grub/themes/hp-theme
+if [[ -d "/boot/grub/themes/hp-theme" ]]
+then
+   echo "Already installed, or a fork is installed."
+   echo "The installer will overwrite the previous install."
+   rm -r /boot/grub/themes/hp-theme
+fi
+cp -v -r hp-menu /boot/grub/themes/hp-theme
 echo "Installed, cleaning up."
 cd ..
 rm -r grub-hp-theme
