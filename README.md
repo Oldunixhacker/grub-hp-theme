@@ -44,7 +44,7 @@ Press `ctrl+x`, `y`, then Enter to apply configuration. Run the installer:
 
 ```
 apt install -y curl
-bash -c "$(curl https://raw.githubusercontent.com/TylerMS887/grub-hp-theme/main/install.sh
+bash -c "$(curl https://raw.githubusercontent.com/TylerMS887/grub-hp-theme/main/install.sh)"
 ```
 
 Install and run `grub-customizer`:
@@ -55,7 +55,8 @@ apt install grub-customizer
 grub-customizer
 ```
 
-Go to the "Appearance" tab and change "Theme" to "hp-theme".
+Go to the "Appearance" tab and change "Theme" to "hp-theme". Click "Save" and restart the system
+to see the new theme!
 
 ## Docs
 
