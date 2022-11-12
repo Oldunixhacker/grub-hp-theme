@@ -1,6 +1,6 @@
 # GRUB HP theme
 
-A GRUB theme that matches the HP boot menu on modern HP systems.
+A GRUB theme that (nearly) matches the HP boot menu on modern HP systems.
 
 This is designed for HP devices by the community and tested on Ubuntu 20.04,
 but it should work on other distributions and manufacturers.
