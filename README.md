@@ -3,7 +3,7 @@
 A GRUB theme that (nearly) matches the HP boot menu on modern HP systems,
 bringing a connection between HP design and the GRUB2 bootloader.
 
-This is designed for HP devices by the community and tested on Ubuntu 20.04,
+This is designed for HP devices by the community and tested on Ubuntu,
 but it should work on other distributions and manufacturers.
 
 ## Install
