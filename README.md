@@ -51,7 +51,7 @@ bash -c "$(curl https://raw.githubusercontent.com/TylerMS887/grub-hp-theme/main/
 Install and run `grub-customizer`:
 
 ```
-add-apt-repository universe
+add-apt-repository ppa:danielrichter2007/grub-customizer
 apt install grub-customizer
 grub-customizer
 ```
